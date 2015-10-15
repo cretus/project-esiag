@@ -1,4 +1,4 @@
-# project-esiag
+# project-Gmap java
 
 
 
@@ -6,11 +6,11 @@ public class GmapDistance1 {
 	 
 
 	 static TestData tst;
-	static String outputString  ="";
+	 static String outputString  ="";
 	 static BufferedReader reader ;
-	static JTextField field;                           
+	 static JTextField field;                           
 	
-	static List<String> ss; 
+	 static List<String> ss; 
 	 static List<String> sst; 
 	
    static  List<String> listes = Arrays.asList("Hôpital Intercommunal",  "hôpital Henri Mondor","hôpital Bicêtre","Hôpital Paul-Brousse, hôpital Sainte-Camille") ;;
@@ -30,21 +30,7 @@ public class GmapDistance1 {
 		           GmapDistance1.originse = origins;
 	                                     }
 	 
-	 
-	 
-	 
-	
-			      
-			      
-			      
-			      
-	
-		     
-	 
-	 
-	 
-	
-public static void main(String[] args) throws IOException {
+   public static void main(String[] args) throws IOException {
 
 	  try{
 		  			// Frame
