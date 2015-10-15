@@ -14,10 +14,9 @@ public class GmapDistance1 {
 	 static List<String> sst; 
 	
    static  List<String> listes = Arrays.asList("Hôpital Intercommunal",  "hôpital Henri Mondor","hôpital Bicêtre","Hôpital Paul-Brousse, hôpital Sainte-Camille") ;;
-   
-	static final String  destination ="%2040%20Avenue%20de%20Verdun,%2094000,%20Creteil|%2051%20Avenue%20du%20Marechal%20de%20Lattre%20de%20Tassigny,%2094010%20Creteil|%2078%20Rue%20du%20General%20Leclerc%20,%2094270%20Le%20Kremlin%20Bicetre|%2012%20Avenue%20Paul%20Vaillant%20Couturier,%2094800%20Villejuif|%20Rue%20des%20Peres%20Camilliens%20,%2094366%20Bry%20sur%20Marne&sensor=true"; 
-	static final String dest ="Juvisy";
-	static public String originse ;
+  static final String  destination ="%2040%20Avenue%20de%20Verdun,%2094000,%20Creteil|%2051%20Avenue%20du%20Marechal%20de%20Lattre%20de%20Tassigny,%2094010%20Creteil|%2078%20Rue%20du%20General%20Leclerc%20,%2094270%20Le%20Kremlin%20Bicetre|%2012%20Avenue%20Paul%20Vaillant%20Couturier,%2094800%20Villejuif|%20Rue%20des%20Peres%20Camilliens%20,%2094366%20Bry%20sur%20Marne&sensor=true"; 
+  static final String dest ="Juvisy";
+  static public String originse ;
 	 
 	 
 	 
@@ -27,8 +26,7 @@ public class GmapDistance1 {
 	                                     }
 
 
-
-	 public static void setOrigins(String origins) {
+    public static void setOrigins(String origins) {
 		           GmapDistance1.originse = origins;
 	                                     }
 	 
@@ -52,7 +50,7 @@ public static void main(String[] args) throws IOException {
 		  			// Frame
 			  
 		 
-			 JFrame frame = new JFrame("Get Adresses");
+	         JFrame frame = new JFrame("Get Adresses");
 		 // size of frame
 		 frame.setSize(300,300);
 		 JPanel pan = new JPanel();
